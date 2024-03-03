@@ -10,8 +10,9 @@ html{
 }
 
 body{
-    background-color: aquamarine;
+    
     color: black;
+    background-color: aqua
 }
 
 #header{
@@ -288,7 +289,7 @@ nav .fas{
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url("D:\Chrome Downloads\forhtml01.jpeg");
+        background-image: url("D:/Chrome Downloads/forhtml01.jpeg");
     }
     .header-text{
         margin-top: 100%;
