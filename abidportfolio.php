@@ -5,13 +5,13 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
 
 
 
-    if(isset($_POST['Submit']))
+    if(isset($_POST['submit']))
     {
         $name=$_POST['Name'];
         $email=$_POST['Email'];
         $message=$_POST['Message'];
 
-        $connection= mysqli_connect('localhost','root','12345','abid');
+        $connection= mysqli_connect('localhost','root','123456','abid');
         if(!$connection){die("Connection Failed" . mysqli_connect_error());}
         
         $insert_query = "INSERT INTO abidtable (Name,Email,Message)";
